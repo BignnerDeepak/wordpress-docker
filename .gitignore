@@ -1,0 +1,4 @@
+
+/docker/ssl/*
+/docker/.env
+db_data
