@@ -1,0 +1,7 @@
+0000.000 (1) Opened log file at time: Wed, 11 Jun 2025 07:47:53 +0000 on https://demo.enablingdimensions.com/whocollaboratory
+0000.000 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.1 PHP: 8.1.32 (litespeed, Linux) MySQL: 11.4.7-MariaDB-log (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 4.4M | 6M) multisite: N openssl: OpenSSL 3.2.2 4 Jun 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.000 (1) Free space on disk containing Updraft's temporary directory: 265957.7 MB
+0000.001 (1) Requesting backup semaphore lock (aba8cf929ca6)
+0000.001 (1) [Debug] Lock option (updraft_lock_aba8cf929ca6, wpg2_options) was created in the database
+0000.001 (1) [Info] Lock (updraft_lock_aba8cf929ca6, wpg2_options) acquired after initialising the database
+0000.001 (1) This backup task (aba8cf929ca6) is either complete or began over 2 days ago: ending (1749628073.4791, ) (existing jobdata keys: )

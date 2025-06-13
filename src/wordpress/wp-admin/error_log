@@ -1,0 +1,22 @@
+[11-Jun-2025 08:59:59 UTC] PHP Warning:  Undefined array key "editor_post_id" in /home/demoenab/public_html/whocollaboratory/wp-content/plugins/elementor/modules/history/revisions-manager.php on line 363
+[11-Jun-2025 09:16:25 UTC] PHP Warning:  Attempt to read property "title" on null in /home/demoenab/public_html/whocollaboratory/wp-includes/class-wp-customize-widgets.php on line 926
+[11-Jun-2025 11:14:32 UTC] WordPress database error Table 'demoenab_wp313.wpg2_sc_events' doesn't exist for query SELECT  COUNT(*) FROM wpg2_sc_events sc_e made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, Elementor\Plugin->init, do_action('elementor/init'), WP_Hook->do_action, WP_Hook->apply_filters, ElementorPro\Core\App\App->set_menu_url, Elementor\Core\Base\Base_Object->set_settings, Elementor\Core\Base\Base_Object->ensure_settings, Elementor\App\App->get_init_settings, wp_get_referer, wp_validate_redirect, apply_filters('allowed_redirect_hosts'), WP_Hook->apply_filters, Sugar_Calendar\SetupWizard\SetupWizard->get_redirect_hosts, Sugar_Calendar\SetupWizard\SetupWizard->get_url, Sugar_Calendar\SetupWizard\SetupWizard->get_exit_url, sugar_calendar_count_events, Sugar_Calendar\Event_Query->__construct, Sugar_Calendar\Database\Query->__construct, Sugar_Calendar\Event_Query->query, Sugar_Calendar\Database\Query->query, Sugar_Calendar\Database\Query->get_items, Sugar_Calendar\Database\Query->get_item_ids
+[11-Jun-2025 11:19:49 UTC] tribe-canonical-line channel=default level=error source="Duration must be a positive integer : The end_date_utc does not match the value of end_date with the timezone." method="TEC\Events\Custom_Tables\V1\Models\Builder::upsert" line=334 model="TEC\Events\Custom_Tables\V1\Models\Event"
+[11-Jun-2025 11:31:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/demoenab/public_html/whocollaboratory/wp-content/plugins/my-calendar/uninstall.php on line 42
+[11-Jun-2025 11:31:15 UTC] PHP Warning:  Trying to access array offset on value of type bool in /home/demoenab/public_html/whocollaboratory/wp-content/plugins/my-calendar/uninstall.php on line 49
+[11-Jun-2025 11:49:21 UTC] PHP Warning:  Attempt to read property "title" on null in /home/demoenab/public_html/whocollaboratory/wp-includes/class-wp-customize-widgets.php on line 926
+[11-Jun-2025 12:49:00 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/demoenab/public_html/whocollaboratory/wp-includes/PHPMailer/PHPMailer.php:880
+Stack trace:
+#0 /home/demoenab/public_html/whocollaboratory/wp-includes/PHPMailer/PHPMailer.php(1968): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/demoenab/public_html/whocollaboratory/wp-includes/PHPMailer/PHPMailer.php(1691): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/demoenab/public_html/whocollaboratory/wp-includes/PHPMailer/PHPMailer.php(1523): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/demoenab/public_html/whocollaboratory/wp-includes/pluggable.php(547): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/demoenab/public_html/whocollaboratory/wp-includes/pluggable.php(2242): wp_mail()
+#5 /home/demoenab/public_html/whocollaboratory/wp-includes/user.php(3588): wp_new_user_notification()
+#6 /home/demoenab/public_html/whocollaboratory/wp-includes/class-wp-hook.php(324): wp_send_new_user_notifications()
+#7 /home/demoenab/public_html/whocollaboratory/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/demoenab/public_html/whocollaboratory/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/demoenab/public_html/whocollaboratory/wp-admin/includes/user.php(247): do_action()
+#10 /home/demoenab/public_html/whocollaboratory/wp-admin/user-new.php(201): edit_user()
+#11 {main}
+  thrown in /home/demoenab/public_html/whocollaboratory/wp-includes/PHPMailer/PHPMailer.php on line 880

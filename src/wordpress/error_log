@@ -1,0 +1,4 @@
+[11-Jun-2025 05:44:21 UTC] PHP Warning:  Constant PASSWORD_DEFAULT already defined in /home/demoenab/public_html/whocollaboratory/update_pass.php on line 17
+[11-Jun-2025 11:16:49 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[11-Jun-2025 11:22:09 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[11-Jun-2025 11:33:30 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}

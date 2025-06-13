@@ -1,0 +1,207 @@
+0000.001 () Opened log file at time: Wed, 11 Jun 2025 07:47:44 +0000 on https://demo.enablingdimensions.com/whocollaboratory
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.1 PHP: 8.1.32 (litespeed, Linux) MySQL: 11.4.7-MariaDB-log (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 5.3M | 8M) multisite: N openssl: OpenSSL 3.2.2 4 Jun 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.001 () Free space on disk containing Updraft's temporary directory: 266331.2 MB
+0000.009 () Restore setup, now closing connection and starting restore over AJAX.
+0000.000 () Opened log file at time: Wed, 11 Jun 2025 07:47:45 +0000 on https://demo.enablingdimensions.com/whocollaboratory
+0000.001 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.25.6 WP: 6.8.1 PHP: 8.1.32 (litespeed, Linux) MySQL: 11.4.7-MariaDB-log (max packet size=1073741824) WPLANG: en_US Server: LiteSpeed safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 2.9M | 6M) multisite: N openssl: OpenSSL 3.2.2 4 Jun 2024 mcrypt: N LANG:  WP Proxy: disabled ZipArchive::addFile: Y
+0000.001 () Free space on disk containing Updraft's temporary directory: 266331.1 MB
+0000.001 () Ensuring WP_Filesystem is setup for a restore
+0000.001 () WP_Filesystem is setup and ready for a restore
+0000.001 () Restore job started. Entities to restore: plugins, themes, uploads, mu-plugins, others, db. Restore options: {"updraft_restorer_replacesiteurl":"1","include_unspecified_tables":false,"tables_to_restore":["who_options","who_users","who_usermeta","who_commentmeta","who_comments","who_links","who_postmeta","who_posts","who_term_relationships","who_term_taxonomy","who_termmeta","who_terms","who_e_events","who_e_submissions","who_e_submissions_actions_log","who_e_submissions_values"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.002 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.003 () Will not delete any archives after unpacking them, because there was no cloud storage for this backup
+0000.003 () Entity: db
+0000.003 () restore_backup(backup_file=backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-db.gz, type=db, info=a:0:{}, last_one=)
+0000.003 () Unpacking backup... (backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-db.gz, 2.2 Mb)
+0000.003 () PHP event: code E_WARNING: mkdir(): File exists (line 558, wp-admin/includes/class-wp-filesystem-direct.php)
+0000.003 () Database successfully unpacked
+0000.003 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.004 () Using direct MySQL access; value of use_mysqli is: 1
+0000.004 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.142 () Max packet size: 1024 MB
+0000.142 () Entering maintenance mode
+0000.142 () Enabling Maintenance mode&#8230;
+0000.209 () Backup of: https://who.treemultisoft.com
+0000.211 () Content URL: https://who.treemultisoft.com/wp-content
+0000.211 () Uploads URL: https://who.treemultisoft.com/wp-content/uploads
+0000.211 () Old table prefix: who_
+0000.211 () Old ABSPATH: /home/u545744944/domains/treemultisoft.com/public_html/who/
+0000.211 () UpdraftPlus plugin slug: updraftplus/updraftplus.php
+0000.211 () Site information: multisite=0
+0000.211 () Site information: sql_mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0000.212 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+0000.212 () New table prefix: zr_
+0000.232 () Processing table (InnoDB): who_options - will restore as: zr_options
+0000.434 () Atomic restore: dropping original table (wpg2_options)
+0000.460 () Atomic restore: renaming new table (zr_options) to final table name (wpg2_options)
+0000.484 () Restoring prior UD configuration (table: wpg2_options; keys: 102)
+0000.489 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.489 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.489 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.489 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.489 () PHP event: code E_DEPRECATED: substr(): Passing null to parameter #1 ($string) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.489 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 169, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.490 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.490 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.490 () PHP event: code E_DEPRECATED: preg_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated (line 48, wp-content/plugins/updraftplus/includes/class-manipulation-functions.php)
+0000.492 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 267, wp-content/plugins/updraftplus/options.php)
+0000.492 () PHP event: code E_DEPRECATED: preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated (line 267, wp-content/plugins/updraftplus/options.php)
+0000.496 () Table prefix has changed: changing options table field(s) accordingly (options)
+0000.496 () Options table fields changed OK
+0000.497 () Search and replacing table: wpg2_options: rows: 359
+0000.510 () Incomplete object detected in database: Elementor\Core\Logger\Items\PHP; Search and replace will be skipped for these entries
+0000.510 () Incomplete object detected in database: Elementor\Core\Logger\Items\Base; Search and replace will be skipped for these entries
+0000.510 () Incomplete object detected in database: Elementor\Core\Logger\Items\JS; Search and replace will be skipped for these entries
+0000.512 () Incomplete object detected in database: WpOrg\Requests\Utility\CaseInsensitiveDictionary; Search and replace will be skipped for these entries
+0000.514 () Processing table (InnoDB): who_users - will restore as: zr_users
+0000.581 () Atomic restore: dropping original table (wpg2_users)
+0000.604 () Atomic restore: renaming new table (zr_users) to final table name (wpg2_users)
+0000.628 () Search and replacing table: wpg2_users: rows: 1
+0000.629 () Processing table (InnoDB): who_usermeta - will restore as: zr_usermeta
+0000.683 () Atomic restore: dropping original table (wpg2_usermeta)
+0000.707 () Atomic restore: renaming new table (zr_usermeta) to final table name (wpg2_usermeta)
+0000.730 () Table prefix has changed: changing usermeta table field(s) accordingly
+0000.731 () Usermeta table fields changed OK
+0000.731 () Search and replacing table: wpg2_usermeta: rows: 30
+0000.731 () Processing table (InnoDB): who_commentmeta - will restore as: zr_commentmeta
+0000.786 () Atomic restore: dropping original table (wpg2_commentmeta)
+0000.809 () Atomic restore: renaming new table (zr_commentmeta) to final table name (wpg2_commentmeta)
+0000.833 () Search and replacing table: wpg2_commentmeta: rows: 0
+0000.833 () Processing table (InnoDB): who_comments - will restore as: zr_comments
+0000.897 () Atomic restore: dropping original table (wpg2_comments)
+0000.920 () Atomic restore: renaming new table (zr_comments) to final table name (wpg2_comments)
+0000.944 () Search and replacing table: wpg2_comments: rows: 1
+0000.944 () Processing table (InnoDB): who_links - will restore as: zr_links
+0000.994 () Atomic restore: dropping original table (wpg2_links)
+0001.018 () Atomic restore: renaming new table (zr_links) to final table name (wpg2_links)
+0001.041 () Search and replacing table: wpg2_links: rows: 0
+0001.041 () Processing table (InnoDB): who_postmeta - will restore as: zr_postmeta
+0001.394 () Database queries processed: 50 in 1.39 seconds
+0001.669 () Atomic restore: dropping original table (wpg2_postmeta)
+0001.730 () Atomic restore: renaming new table (zr_postmeta) to final table name (wpg2_postmeta)
+0001.770 () Search and replacing table: wpg2_postmeta: rows: 1177
+0002.997 () Processing table (InnoDB): who_posts - will restore as: zr_posts
+0003.206 () Database queries processed: 100 in 3.20 seconds
+0003.301 () Atomic restore: dropping original table (wpg2_posts)
+0003.333 () Atomic restore: renaming new table (zr_posts) to final table name (wpg2_posts)
+0003.358 () Skipping search/replace on GUID column in posts table
+0003.358 () Search and replacing table: wpg2_posts: rows: 1337
+0003.580 () Processing table (InnoDB): who_term_relationships - will restore as: zr_term_relationships
+0003.653 () Atomic restore: dropping original table (wpg2_term_relationships)
+0003.676 () Atomic restore: renaming new table (zr_term_relationships) to final table name (wpg2_term_relationships)
+0003.704 () Skipping this table: data in this table (wpg2_term_relationships) should not be search/replaced
+0003.705 () Processing table (InnoDB): who_term_taxonomy - will restore as: zr_term_taxonomy
+0003.758 () Atomic restore: dropping original table (wpg2_term_taxonomy)
+0003.781 () Atomic restore: renaming new table (zr_term_taxonomy) to final table name (wpg2_term_taxonomy)
+0003.805 () Search and replacing table: wpg2_term_taxonomy: rows: 10
+0003.805 () Processing table (InnoDB): who_termmeta - will restore as: zr_termmeta
+0003.858 () Atomic restore: dropping original table (wpg2_termmeta)
+0003.881 () Atomic restore: renaming new table (zr_termmeta) to final table name (wpg2_termmeta)
+0003.904 () Search and replacing table: wpg2_termmeta: rows: 0
+0003.904 () Processing table (InnoDB): who_terms - will restore as: zr_terms
+0003.957 () Atomic restore: dropping original table (wpg2_terms)
+0003.981 () Atomic restore: renaming new table (zr_terms) to final table name (wpg2_terms)
+0004.004 () Search and replacing table: wpg2_terms: rows: 10
+0004.004 () Processing table (InnoDB): who_e_events - will restore as: zr_e_events
+0004.054 () Atomic restore: dropping original table (wpg2_e_events)
+0004.073 () Atomic restore: renaming new table (zr_e_events) to final table name (wpg2_e_events)
+0004.096 () Search and replacing table: wpg2_e_events: rows: 1
+0004.096 () Processing table (InnoDB): who_e_submissions - will restore as: zr_e_submissions
+0004.199 () Atomic restore: dropping original table (wpg2_e_submissions)
+0004.218 () Atomic restore: renaming new table (zr_e_submissions) to final table name (wpg2_e_submissions)
+0004.242 () Search and replacing table: wpg2_e_submissions: rows: 0
+0004.242 () Processing table (InnoDB): who_e_submissions_actions_log - will restore as: zr_e_submissions_actions_log
+0004.316 () Atomic restore: dropping original table (wpg2_e_submissions_actions_log)
+0004.335 () Atomic restore: renaming new table (zr_e_submissions_actions_log) to final table name (wpg2_e_submissions_actions_log)
+0004.359 () Search and replacing table: wpg2_e_submissions_actions_log: rows: 0
+0004.359 () Processing table (InnoDB): who_e_submissions_values - will restore as: zr_e_submissions_values
+0004.391 () Skipped execution of SQL statement (unwanted or internally handled type=18): /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+0004.392 () Unlocking database and leaving maintenance mode
+0004.392 () Disabling Maintenance mode&#8230;
+0004.392 () Atomic restore: dropping original table (wpg2_e_submissions_values)
+0004.411 () Atomic restore: renaming new table (zr_e_submissions_values) to final table name (wpg2_e_submissions_values)
+0004.434 () Search and replacing table: wpg2_e_submissions_values: rows: 0
+0004.434 () Finished: lines processed: 135 in 4.43 seconds
+0004.435 () Cleaning up rubbish...
+0004.435 () Begin search and replace (updraftplus_restored_db)
+0004.435 () [Database-replace-site-url] Database: search and replace site URL
+0004.435 () Database search and replace: replace https://who.treemultisoft.com in backup dump with https://demo.enablingdimensions.com/whocollaboratory
+0004.435 () Database search and replace: replace http://www.who.treemultisoft.com in backup dump with https://demo.enablingdimensions.com/whocollaboratory
+0004.435 () Database search and replace: replace http://who.treemultisoft.com in backup dump with https://demo.enablingdimensions.com/whocollaboratory
+0004.435 () Database search and replace: replace https://www.who.treemultisoft.com in backup dump with https://demo.enablingdimensions.com/whocollaboratory
+0004.435 () Database search and replace: replace /home/u545744944/domains/treemultisoft.com/public_html/who in backup dump with /home/demoenab/public_html/whocollaboratory
+0004.435 () Search and replacing table: wpg2_commentmeta: already done
+0004.435 () Search and replacing table: wpg2_comments: already done
+0004.436 () Search and replacing table: wpg2_e_events: already done
+0004.436 () Search and replacing table: wpg2_e_submissions: already done
+0004.436 () Search and replacing table: wpg2_e_submissions_actions_log: already done
+0004.436 () Search and replacing table: wpg2_e_submissions_values: already done
+0004.436 () Search and replacing table: wpg2_links: already done
+0004.436 () Search and replacing table: wpg2_options: already done
+0004.436 () Search and replacing table: wpg2_postmeta: already done
+0004.436 () Search and replacing table: wpg2_posts: already done
+0004.436 () Search and replacing table: wpg2_term_relationships: already done
+0004.436 () Search and replacing table: wpg2_term_taxonomy: already done
+0004.436 () Search and replacing table: wpg2_termmeta: already done
+0004.436 () Search and replacing table: wpg2_terms: already done
+0004.436 () Search and replacing table: wpg2_usermeta: already done
+0004.436 () Search and replacing table: wpg2_users: already done
+0004.437 () Entity: mu-plugins
+0004.437 () restore_backup(backup_file=backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-mu-plugins.zip, type=mu-plugins, info=a:2:{s:4:"path";s:65:"/home/demoenab/public_html/whocollaboratory/wp-content/mu-plugins";s:11:"description";s:16:"Must-use plugins";}, last_one=)
+0004.437 () Unpacking backup... (backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-mu-plugins.zip, 0 MB)
+0004.438 () Unzipping backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-mu-plugins.zip to /home/demoenab/public_html/whocollaboratory/wp-content/upgrade/4fe8e01d/ using UpdraftPlus_ZipArchive, starting index 0
+0004.439 () Unzip progress: 2 out of 2 files (3.8 KB, mu-plugins/elementor-safe-mode.php)
+0004.439 () Moving old data: filesystem method / updraft_dir is potentially possible
+0004.439 () Moving old data: can potentially use wp_filesystem method / -old
+0004.439 () Moving old data out of the way...
+0004.439 () Moving unpacked backup into place...
+0004.439 () Destination directory did not exist, but was successfully created (/home/demoenab/public_html/whocollaboratory/wp-content/mu-plugins/)
+0004.439 () Cleaning up rubbish...
+0004.441 () Entity: plugins
+0004.441 () restore_backup(backup_file=backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-plugins.zip, type=plugins, info=a:3:{s:4:"path";s:62:"/home/demoenab/public_html/whocollaboratory/wp-content/plugins";s:11:"description";s:7:"Plugins";s:20:"singular_description";s:6:"Plugin";}, last_one=)
+0004.441 () Unpacking backup... (backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-plugins.zip, 23.9 MB)
+0004.441 () Unzipping backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-plugins.zip to /home/demoenab/public_html/whocollaboratory/wp-content/upgrade/5347ac04/ using UpdraftPlus_ZipArchive, starting index 0
+0004.479 () Unzip progress: 1002 out of 4921 files (261.2 KB, plugins/elementor/core/editor/loader/v1/js/editor-loader-v1.js)
+0004.614 () Unzip progress: 2003 out of 4921 files (48.4 MB, plugins/elementor/assets/js/packages/icons/icons.min.js)
+0005.219 () Unzip progress: 3004 out of 4921 files (53.5 MB, plugins/elementor-pro/core/app/modules/site-editor/assets/js/site-editor.scss)
+0006.233 () Unzip progress: 4005 out of 4921 files (74.7 MB, plugins/updraftplus/includes/tether-shepherd/tether.js)
+0006.602 () Unzip progress: 4921 out of 4921 files (94.3 MB, plugins/updraftplus/methods/pcloud.php)
+0006.603 () Moving old data: filesystem method / updraft_dir is potentially possible
+0006.603 () Moving old data: can potentially use wp_filesystem method / -old
+0006.603 () Moving old data out of the way...
+0006.610 () Top-level entities being moved: index.php, updraftplus
+0006.611 () Moving unpacked backup into place...
+0006.639 () Top-level entities being moved: classic-editor, duplicate-page, elementor, elementor-pro, updraftplus, index.php
+0006.640 () Cleaning up rubbish...
+0006.641 () Entity: themes
+0006.641 () restore_backup(backup_file=backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-themes.zip, type=themes, info=a:3:{s:4:"path";s:61:"/home/demoenab/public_html/whocollaboratory/wp-content/themes";s:11:"description";s:6:"Themes";s:20:"singular_description";s:5:"Theme";}, last_one=)
+0006.641 () Unpacking backup... (backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-themes.zip, 13.9 MB)
+0006.641 () Unzipping backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-themes.zip to /home/demoenab/public_html/whocollaboratory/wp-content/upgrade/8486137d/ using UpdraftPlus_ZipArchive, starting index 0
+0007.263 () Unzip progress: 629 out of 629 files (17.5 MB, themes/twentytwentyfive/functions.php)
+0007.264 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.264 () Moving old data: can potentially use wp_filesystem method / -old
+0007.264 () Moving old data out of the way...
+0007.266 () Top-level entities being moved: index.php, twentytwentyfive, twentytwentyfour, twentytwentythree
+0007.266 () Moving unpacked backup into place...
+0007.269 () Top-level entities being moved: twentytwentyfive, twentytwentyfour, twentytwentythree, who, index.php
+0007.269 () Cleaning up rubbish...
+0007.270 () Entity: uploads
+0007.270 () restore_backup(backup_file=backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:62:"/home/demoenab/public_html/whocollaboratory/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0007.270 () Unpacking backup... (backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-uploads.zip, 31.3 MB)
+0007.270 () Unzipping backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-uploads.zip to /home/demoenab/public_html/whocollaboratory/wp-content/upgrade/c0c22815/ using UpdraftPlus_ZipArchive, starting index 0
+0007.309 () Unzip progress: 311 out of 311 files (31.8 MB, uploads/elementor/screenshots/index.html)
+0007.309 () Moving old data: filesystem method / updraft_dir is potentially possible
+0007.309 () Moving old data: can potentially use wp_filesystem method / -old
+0007.309 () Moving old data out of the way...
+0007.309 () Moving unpacked backup into place...
+0007.311 () Cleaning up rubbish...
+0007.311 () Entity: others
+0007.311 () restore_backup(backup_file=backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-others.zip, type=others, info=a:2:{s:4:"path";s:54:"/home/demoenab/public_html/whocollaboratory/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0007.311 () Unpacking backup... (backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-others.zip, 0 MB)
+0007.312 () Unzipping backup_2025-06-11-0742_World_Health_Organization_aba8cf929ca6-others.zip to /home/demoenab/public_html/whocollaboratory/wp-content/upgrade/5e285aaf/ using UpdraftPlus_ZipArchive, starting index 0
+0007.312 () Unzip progress: 2 out of 2 files (28 B, index.php)
+0007.312 () Cleaning up rubbish...
+0007.314 () Elementor's CSS directory exists, and will be emptied (so that it will be automatically regenerated)
+0007.315 () Purging cache directory: /home/demoenab/public_html/whocollaboratory/wp-content/cache
+0007.316 () Restore successful!
+0007.316 () Restore successful
